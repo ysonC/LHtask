@@ -27,12 +27,19 @@ int main ()
     // }
 
 //最大公因數
-    for (i = 0; i <= 10; i++)
+    for (i = 0; i <= 10; i++)//10???
     {
         if (m > n )
             m -= n;
         else if (n > m )
             n -= m;
+        /*
+        if(m>n)
+            m-=n;
+        else 
+            n-=m;
+
+        */
     }
     a = m;
     cout << "最大公因數 = " << a << endl; 

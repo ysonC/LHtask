@@ -13,7 +13,7 @@ int main ()
     cin >> y;
     cin >> z;
 
-    for (int i = 0 ; i < 3; i++)
+    for (int i = 0 ; i < 3; i++)//3???
     {
         if (x > y)
         {
